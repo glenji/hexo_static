@@ -1,170 +1,86 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <!-- so meta -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="HandheldFriendly" content="True">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <meta property="og:type" content="website">
+  <meta charset="utf-8">
+  
+  <title>archive_a | Halfacrossword</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta property="og:type" content="website">
 <meta property="og:title" content="Halfacrossword">
 <meta property="og:url" content="http://halfacrossword.online/blog/archives/index.html">
 <meta property="og:site_name" content="Halfacrossword">
 <meta property="og:locale" content="default">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Halfacrossword">
-    
-    
-        
-          
-              <link rel="shortcut icon" href="/blog/images/favicon.ico">
-          
-        
-        
-          
-            <link rel="icon" type="image/png" href="/blog/images/favicon-192x192.png" sizes="192x192">
-          
-        
-        
-          
-            <link rel="apple-touch-icon" sizes="180x180" href="/blog/images/apple-touch-icon.png">
-          
-        
-    
-    <!-- title -->
-    <title>Halfacrossword</title>
-    <!-- styles -->
-    <link rel="stylesheet" href="/blog/css/style.css">
-    <!-- rss -->
-    
-    
+  
+    <link rel="alternate" href="/atom.xml" title="Halfacrossword" type="application/atom+xml">
+  
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link rel="stylesheet" href="/blog/lib/font-awesome/css/font-awesome.min.css?v=4.7.0">
+  <link rel="stylesheet" href="/blog/lib/fancybox/dist/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="/blog/css/main.css">
+  <script src="/blog/lib/jquery/dist/jquery.min.js"></script>
+  
+  
+  
+  
 </head>
-
-<body class="max-width mx-auto px3">
-    
-    <div class="content index my4">
-        
-          <header id="header">
-  <a href="/blog/">
-  
-    
-      <div id="logo" style="background-image: url(/blog/images/logo.png);"></div>
-    
-  
-    <div id="title">
-      <h1>Halfacrossword</h1>
-    </div>
-  </a>
-  <div id="nav">
-    <ul>
-      <li class="icon">
-        <a href="#"><i class="fas fa-bars fa-2x"></i></a>
-      </li>
-       
-        <li><a href="/blog/">Home</a></li>
-       
-        <li><a href="/blog/about/">About</a></li>
-       
-        <li><a href="/blog/archives/">Writing</a></li>
-       
-        <li><a href="/blog/projects_url">Projects</a></li>
+<body>
+  <div id="wrapper">
+    <header id="header" class="clearfix">
+	<a id="logo" href="/blog/" title="Halfacrossword">Halfacrossword</a>
+	
+	<nav id="nav-menu" class="clearfix">
+		<form id="search" method="post" action="./" role="search">
+			<input id="search-input" type="text" name="s" class="inputbox" value="menu.search" onfocus="if (value =='menu.search'){value =''}" onblur="if (value ==''){value='menu.search'}">
+		</form>
+		<ul>
       
-    </ul>
-  </div>
+				
+        <li><a class="main-nav-link" href="/blog/">menu.home</a></li>
+      
+				
+        <li><a class="main-nav-link" href="/blog/archives">menu.archives</a></li>
+      
+		</ul>
+	</nav>
 </header>
+    <section id="main" class="clearfix">  
 
-        
-        <div id="archive">
-  <ul class="post-list">
-    
-    
-    
-      
-      
-      
-      
-        <h2>2018</h2>
-      
-      <li class="post-item">
-        
-    <div class="meta">
-        <time datetime="2018-04-01T05:30:10.000Z" itemprop="datePublished">2018-04-01</time>
-    </div>
-
-
-        <span>
-    
-        <a class="" href="/blog/2018/04/01/My-New-Post/">My New Post</a>
-    
-
-
-</span>
-      </li>
-    
-      
-      
-      
-      
-      <li class="post-item">
-        
-    <div class="meta">
-        <time datetime="2018-04-01T04:49:10.419Z" itemprop="datePublished">2018-04-01</time>
-    </div>
-
-
-        <span>
-    
-        <a class="" href="/blog/2018/04/01/hello-world/">Hello World</a>
-    
-
-
-</span>
-      </li>
-    
-  </ul>
   
-
-</div>
-
-    </div>
-    
-    <footer id="footer">
-  <div class="footer-left">
-    Copyright &copy; 2018 Glen Sutton
-  </div>
-  <div class="footer-right">
-    <nav>
-      <ul>
-         
-          <li><a href="/blog/">Home</a></li>
-         
-          <li><a href="/blog/about/">About</a></li>
-         
-          <li><a href="/blog/archives/">Writing</a></li>
-         
-          <li><a href="/blog/projects_url">Projects</a></li>
+    <article class="post-detail">
+      <div id="archives">
+        <h3 class="al_year">2018</h3>
         
-      </ul>
-    </nav>
-  </div>
-</footer>
+          <ul class="al_mon_list">
+            <li clsss="li_mon"><span class="al_mon">3</span>
+                <ul class="al_post_list">
+                  
+                    <li><a href="/blog/2018/04/01/My-New-Post/">My New Post</a></li>
+                  
+                    <li><a href="/blog/2018/04/01/hello-world/">Hello World</a></li>
+                  
+                </ul>
+            </li>
+          </ul>
+        
+      </div>
+    </article>
+  
+  </section>
+    <footer id="footer" role="contentinfo">
+    <div>&copy; 2018 <a href="/">Halfacrossword</a>.
+    Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>. Designed by <a href="http://rainylog.com" target="_blank">Rainy.</a>
+	</div>
+</footer><!-- end #footer -->
 
+  </div>
+  <script src="/blog/lib/fancybox/dist/jquery.fancybox.min.js"></script>
+
+  <script src="/blog/js/helper.js"></script>
+  <script src="/blog/js/_third-party/gitment.js"></script>
 </body>
 </html>
-<!-- styles -->
-<link rel="stylesheet" href="/blog/lib/font-awesome/css/fontawesome-all.min.css">
-<link rel="stylesheet" href="/blog/lib/justified-gallery/css/justifiedGallery.min.css">
-
-<!-- jquery -->
-<script src="/blog/lib/jquery/jquery.min.js"></script>
-<script src="/blog/lib/justified-gallery/js/jquery.justifiedGallery.min.js"></script>
-<script src="/blog/js/main.js"></script>
-<!-- search -->
-
-<!-- Google Analytics -->
-
-<!-- Baidu Analytics -->
-
-<!-- Disqus Comments -->
-
-
