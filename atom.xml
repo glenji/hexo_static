@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Tech in TEFL</title>
   
-  
+  <subtitle>Teching Hacks</subtitle>
   <link href="/blog/atom.xml" rel="self"/>
   
   <link href="http://halfacrossword.online/blog/"/>
