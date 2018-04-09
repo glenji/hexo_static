@@ -698,7 +698,6 @@ body {
   -webkit-appearance: none;
 }
 .article {
-  max-width: 300px;
   color: #555;
   margin: 50px 0;
   -webkit-transition: width 0.1s;
@@ -1423,6 +1422,9 @@ a.article-title:hover {
 }
 .nav-child {
   margin-left: 1em;
+}
+.article p {
+  max-width: 600px;
 }
 #comments {
   padding: 20px;
