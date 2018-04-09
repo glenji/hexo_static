@@ -6,7 +6,7 @@
   <link href="/blog/atom.xml" rel="self"/>
   
   <link href="http://halfacrossword.online/blog/"/>
-  <updated>2018-04-09T19:43:29.345Z</updated>
+  <updated>2018-04-09T21:19:52.758Z</updated>
   <id>http://halfacrossword.online/blog/</id>
   
   <author>
@@ -17,11 +17,25 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Bonjour</title>
-    <link href="http://halfacrossword.online/blog/2018/04/09/Bonjour/"/>
-    <id>http://halfacrossword.online/blog/2018/04/09/Bonjour/</id>
-    <published>2018-04-09T19:43:29.000Z</published>
-    <updated>2018-04-09T19:43:29.345Z</updated>
+    <title>Welcome</title>
+    <link href="http://halfacrossword.online/blog/2018/04/09/Welcome-1/"/>
+    <id>http://halfacrossword.online/blog/2018/04/09/Welcome-1/</id>
+    <published>2018-04-09T21:19:52.000Z</published>
+    <updated>2018-04-09T21:19:52.758Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Welcome</title>
+    <link href="http://halfacrossword.online/blog/2018/04/09/Welcome/"/>
+    <id>http://halfacrossword.online/blog/2018/04/09/Welcome/</id>
+    <published>2018-04-09T21:19:37.000Z</published>
+    <updated>2018-04-09T21:19:37.612Z</updated>
     
     <summary type="html">
     
