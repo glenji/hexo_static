@@ -1423,9 +1423,6 @@ a.article-title:hover {
 .nav-child {
   margin-left: 1em;
 }
-.article p {
-  max-width: 600px;
-}
 #comments {
   padding: 20px;
   margin: 50px 0;
