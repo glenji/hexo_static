@@ -5,6 +5,10 @@ body{
 	padding: 0; 
 	margin: 0;
 
+}
+
+.article article-type-post {
+
 	margin-right: 160px;
 	margin-left: 160px;
 }
