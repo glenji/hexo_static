@@ -717,6 +717,8 @@ body {
   -moz-transition-timing-function: ease-out; /* Firefox 4 */
   -webkit-transition-timing-function: ease-out; /* Safari 和 Chrome */
   -o-transition-timing-function: ease-out; /* Opera */
+  margin-left: 160px;
+  margin-right: 160px;
 }
 @media screen and (max-width: 479px) {
   .article {
